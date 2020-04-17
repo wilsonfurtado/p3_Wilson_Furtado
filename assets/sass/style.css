@@ -1,0 +1,360 @@
+/* Variable */
+/* Mixin shadow */
+/* Mixin position-underline */
+/* Keyframes Wiggle */
+@-webkit-keyframes wiggle {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+@keyframes wiggle {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+/* Dot - button previous */
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@-webkit-keyframes anim {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes anim {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+/* Other */
+body {
+  color: #fdcb46;
+  /* Main section */
+  /* Footer */
+}
+body img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  -webkit-box-shadow: -1px 0px 10px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 10px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 10px -2px rgba(0, 0, 0, 0.75);
+}
+body ul {
+  padding: 0;
+}
+body .header__navbar,
+body .footer__navbar {
+  height: 5rem;
+  background-color: #579c87;
+  display: flex;
+  align-items: center;
+}
+body .header__navbar {
+  justify-content: center;
+}
+body .header__navbar a {
+  text-decoration: none;
+  color: #fdcb46;
+}
+body .main__section {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+  /* Section title */
+  /* Nav */
+  /* Container boutton previous */
+  /* Section container menu */
+}
+body .main__section .section__title {
+  margin: 2.9rem 0;
+  text-align: center;
+  color: #000;
+}
+body .main__section .nav {
+  /* Nav card */
+}
+body .main__section .nav .nav--card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* Nav card item */
+}
+body .main__section .nav .nav--card .nav--card__item {
+  height: 100%;
+  width: 47.5%;
+  margin: 3rem 0 0 0;
+  overflow: hidden;
+  display: block;
+  -webkit-box-shadow: -1px 0px 10px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 10px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 10px -2px rgba(0, 0, 0, 0.75);
+  /* Nav card item link */
+}
+body .main__section .nav .nav--card .nav--card__item .nav--card__item--link {
+  /* Nav--card__item--link - image */
+}
+body .main__section .nav .nav--card .nav--card__item .nav--card__item--link img {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+body .main__section .nav .nav--card .nav--card__item .nav--card__item--link img:hover {
+  opacity: 0.6;
+  -webkit-transform: scale(1.19);
+  -ms-transform: scale(1.19);
+  transform: scale(1.19);
+}
+body .main__section .container-btn-previous {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Bouton previous */
+}
+body .main__section .container-btn-previous .btn__next--green {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 2rem;
+  margin-top: 5rem;
+  font-size: 1.4rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #579c87;
+  /* Dot 01 - button previous */
+  /* Dot 02 - button previous */
+  /* Dot 03 - button previous */
+}
+body .main__section .container-btn-previous .btn__next--green span {
+  -webkit-animation-name: blink;
+  animation-name: blink;
+  -webkit-animation-duration: 1.4s;
+  animation-duration: 1.4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+body .main__section .container-btn-previous .btn__next--green span:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+body .main__section .container-btn-previous .btn__next--green span:nth-child(3) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+body .main__section .section__container-menu {
+  position: relative;
+  /* Menu restaurant 01 */
+  /* Menu restaurant 02 */
+  /* Menu restaurant 03 */
+  /* Menu restaurant 04 */
+  /* Display underline */
+}
+body .main__section .section__container-menu .conteneur-underline__prelude {
+  position: absolute;
+  top: 21%;
+  left: 37.4%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline__point-dorgue {
+  position: absolute;
+  top: 47%;
+  left: 37.4%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline__mouvement-final {
+  position: absolute;
+  top: 68%;
+  left: 37.1%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline__pour-se-mettre-en-appetit {
+  position: absolute;
+  top: 24%;
+  left: 37.7%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline__plaisir-des-papilles {
+  position: absolute;
+  top: 46%;
+  left: 37.4%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline__gourmandises-sucrees {
+  position: absolute;
+  top: 68%;
+  left: 37.7%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline__pour-bien-commencer {
+  position: absolute;
+  top: 24%;
+  left: 37.8%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline__pour-bien-continuer {
+  position: absolute;
+  top: 44.5%;
+  left: 37.8%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline__pour-bien-terminer {
+  position: absolute;
+  top: 64.4%;
+  left: 38%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline__esquisse {
+  position: absolute;
+  top: 24%;
+  left: 37.6%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline__oeuvre-de-maitre {
+  position: absolute;
+  top: 45%;
+  left: 37.6%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline__au-sommet-de-lart {
+  position: absolute;
+  top: 64.5%;
+  left: 37.6%;
+  width: 25%;
+  height: 4%;
+}
+body .main__section .section__container-menu .conteneur-underline:hover .underline {
+  border-bottom: 5px ridge grey;
+  bottom: 0;
+  left: 20%;
+  color: red;
+  position: absolute;
+  -webkit-animation: anim 4s 500ms normal ease-out forwards;
+  animation: anim 4s 500ms normal ease-out forwards;
+}
+body .main__section .container-mentions {
+  color: #000;
+}
+body .footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+body .footer .footer__navbar {
+  justify-content: space-between;
+  padding: 0 50px;
+  /* Footer infos */
+  /* Footer infos link */
+}
+body .footer .footer__navbar .footer__infos:hover {
+  -webkit-animation: wiggle 75ms infinite;
+  animation: wiggle 75ms infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+body .footer .footer__navbar .footer__infos--link {
+  color: #fdcb46;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
