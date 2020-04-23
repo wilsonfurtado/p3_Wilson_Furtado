@@ -83,6 +83,11 @@ body {
     @include shadow();
   }
 
+  a {
+      text-decoration: none;
+      color: $primary-color-text
+  };
+
   ul {
     padding: 0;
   }
@@ -111,13 +116,6 @@ body {
     width: 80%;
     margin: 0 auto;
     padding-bottom: 10rem;
-
-    /* Section title */
-    .section__title {
-      margin: 2.9rem 0;
-      text-align: center;
-      color: #000
-    }
 
     /* Nav */
     .nav {
@@ -161,14 +159,14 @@ body {
       }
     }
     
-    /* Container boutton previous */
-    .container-btn-previous {
+    /* Container boutton */
+    .container-btn {
       display: flex;
       justify-content: center;
       align-items: center;
 
-      /* Bouton previous */ 
-      .btn__next--green {
+      /* Bouton */ 
+      .btn--green {
         border: 0;
         line-height: 2.5;
         padding: 0 2rem;
@@ -204,9 +202,11 @@ body {
       }
     }
     
+
     /* Section container menu */
     .section__container-menu {
       position: relative;
+      margin: 9rem 0 0 0;
     
       /* Menu restaurant 01 */
       .conteneur-underline__prelude {
