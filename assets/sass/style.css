@@ -154,6 +154,9 @@ body .main__section {
   /* Container boutton */
   /* Section container menu */
 }
+body .main__section .list_saut-lign li {
+  margin-bottom: 20px;
+}
 body .main__section .nav {
   /* Nav card */
 }
